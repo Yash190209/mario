@@ -56,7 +56,7 @@ GameStatus="";
 ====================================*/
 function startGame(){
   GameStatus="start";
-  document.getElementsById("status").innerHTML="Game Is Loading...";
+  document.getElementById("status").innerHTML="Game Is Loading...";
 }
 
 function game(){
